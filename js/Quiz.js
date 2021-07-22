@@ -56,10 +56,10 @@ class Quiz {
     text("Note: The Contestant who answered correctly is highlited in green!",130,230);
     }
 
-
+    var display_pos=300;
     for(var plr in allContestants){
       var correctAns="2";
-      var display_pos=300;
+   
       if(correctAns===allContestants[plr].answer){
         fill("green");
       }
